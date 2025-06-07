@@ -9,7 +9,7 @@ l2 = 10
 
 a = [1]
 
-lst =[0]
+lst =[]
 
 for i in range(500):
     u = random.random()
@@ -25,6 +25,7 @@ for i in range(500):
         if u <= 1-(d*l2):
             a.append(2)
             
+            
 for i in range(500):
     if a[i] == 1:
         u = 0.1
@@ -39,10 +40,14 @@ for i in range(500):
     lst.append(d * u + math.sqrt(d) * s * random.gauss(0, 1))
 
 
-plt.ylim(0,.1)
+plt.ylim(-0.01,.1)
 plt.plot(lst)
 
-print(lst)
+#f = (-(l1 + l2)*p + l2 - (((0.3)*p(1-p)(0.3)p + (-.2) - (6.25)/2)/(6.25)))
+
+#math.min(math.max(f*d + (0.3/6.25)*math.log(lst[i+1]/(lst[i])), 0), 1)
+
+#print(lst)
             
 #plt.plot(a)
 #plt.plot(a)
@@ -50,3 +55,4 @@ print(lst)
 #plt.plot(a)
 #plt.plot(a)
 #print(a)
+

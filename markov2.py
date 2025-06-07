@@ -8,10 +8,6 @@ l2 = 10
 
 
 a = [1]
-b = [1]
-c = [1]
-d1 = [1]
-e = [1]
 
 for i in range(500):
     u = random.random()
@@ -31,8 +27,5 @@ for i in range(500):
 
 plt.ylim(0,3)            
 plt.plot(a)
-plt.plot(a)
-plt.plot(a)
-plt.plot(a)
-plt.plot(a)
 #print(a)
+
